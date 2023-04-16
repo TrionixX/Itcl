@@ -1,0 +1,467 @@
+@font-face {
+    font-family: SS;
+    src: url(fonts/Exo2-Italic-VariableFont_wght.ttf);
+}
+body{
+    font-family: SS;
+    background-image: url(image/imgpsh_fullsize_anim.jfif);
+    margin: 0;
+
+}
+.circle .minicircle{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: rgba(26, 52, 197, 0.521);
+    text-align: center;
+    font-size: 30px;
+}
+.circle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    border: 2px solid white;
+    background-color:  rgba(18, 25, 80, 0.507);
+    border-radius: 10px;
+}
+.minicircle p{
+    padding-top: 30px;
+    color: white;
+}
+.cac{
+    width: 550px;
+    height: 470px;
+    background-color:  rgba(26, 52, 197, 0.521);
+    border-radius: 20px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.cac .ddd{
+    display: grid;
+    grid-gap: 40px;
+    margin-top: 20px;
+    font-size: 34px;
+}
+.text2{
+    font-size: 55px;
+}
+.asc{
+    width: 100%;
+    height: 600px;
+    background-color:rgba(18, 25, 80, 0.507);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+ul li{ 
+    display: inline;
+    margin-left: 100px;
+    font-size: 34px;
+    color:  rgba(26, 52, 197, 0.521);    
+}
+.l1{
+    margin-right: 200px;
+    border-radius: 10px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    border: 2px solid rgba(18, 25, 80, 0.377);
+    background-color: rgba(18, 25, 80, 0.507);
+    margin: 0;
+}
+.text1{
+    width: 350px;
+    height: 425px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(26, 52, 197, 0.521);
+    color: white;
+    border-radius: 15px;  
+}
+.yl{
+    color: rgb(18, 25, 80);
+}
+.asa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-color: rgba(18, 25, 80, 0.507) ;
+    border-radius: 10px;
+}
+.text1 div{
+    margin-top: 20px;
+}
+.sda{
+    width: 1px;
+    height: 425px;
+    background-color: rgb(0, 0, 0);
+    color: rgba(240, 248, 255, 0);
+}
+.sda:hover {
+    width: 400px;
+    height: 425px;
+    background-color: rgba(252, 252, 252, 0);
+    color: rgb(255, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 22px;
+  }
+.pic{
+    background-image: url(image/sdfds.jpg);
+    font-size: 100%;
+    width: 289px;
+    height: 424px;
+}
+.link{
+    width: 700px;
+    height: 340px;
+    background-color: rgba(26, 52, 197, 0.521);
+    border-radius: 20px;
+
+}
+
+.link .xxx{
+    width: 580px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    background-color:rgba(26, 52, 197, 0.811) ;
+    border: 2px solid ;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.dsd .xx{
+    width: 270px;
+    height: 40px;
+    border: 2px solid white;
+    margin: 10px;
+    text-align: left;
+    font-size: 27px;
+    background-color:rgba(26, 52, 197, 0.811) ;
+    color: white;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.dsd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.link .x{
+    width: 200px;
+    height: 40px;
+    background-color:rgba(18, 25, 80, 0.507);
+    color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.backc{
+    width: 100%;
+    height: 600px;
+    background-color:rgba(18, 25, 80, 0.507);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gal{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 1000px;
+    height: 400px;
+    background-color:rgba(18, 25, 80, 0.507) ;
+
+
+}
+.sads{
+    background-color:rgba(18, 25, 80, 0.507) ;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.gal img{
+    margin-left: 20px;
+}
+.text3{
+    color: white;
+    font-size: 50px;
+    text-align: center; 
+    width: 100px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 300px;
+    background-color:rgba(18, 25, 80, 0.507)  ;
+}
+.end{
+    display: flex;
+    align-items: center;
+}
+.asds{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+.asds .sas{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.qaw div{
+    margin-left: 40px;
+}
+.imgg{
+    margin: 20px;
+    background-image: url(image/Group\ 10.png);
+    background-size: 100%;
+}
+@media(max-width : 391px){
+.circle .minicircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgba(26, 52, 197, 0.521);
+    text-align: center;
+    font-size: 10px;
+}
+.circle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background-color:  rgba(18, 25, 80, 0.507);
+    border-radius: 10px;
+}
+.minicircle p{
+    padding-top: 10px;
+    color: white;
+}
+.cac{
+    width: 550px;
+    height: 160px;
+    background-color:  rgba(26, 52, 197, 0.521);
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.cac .ddd{
+    display: grid;
+    grid-gap: 40px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.text2{
+    font-size: 14px;
+}
+.asc{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(18, 25, 80, 0.507);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+ul li{ 
+    display: inline;
+    margin-left: 40px;
+    font-size: 11px;
+    color:  rgba(7, 24, 125, 0.521);    
+}
+.l1{
+    margin-right: 200px;
+    border-radius: 10px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    border: 2px solid rgba(18, 25, 80, 0.377);
+    background-color: rgba(18, 25, 80, 0.507);
+    margin: 0;
+}
+
+.text1{
+    width: 144px;
+    height: 212px;
+    text-align: center;
+    font-size: 10px;
+    background-color: rgba(26, 52, 197, 0.521);
+    color: white;
+    border-radius: 15px;  
+}
+.yl{
+    color: rgb(18, 25, 80);
+}
+.asa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(18, 25, 80, 0.507) ;
+    border-radius: 10px;
+}
+.text1 div{
+    margin-top: 20px;
+}
+.sda{
+    width: 1px;
+    height: 212px;
+    background-color: rgb(0, 0, 0);
+    color: rgba(240, 248, 255, 0);
+}
+.sda:hover {
+    width: 400px;
+    height: 425px;
+    background-color: rgba(252, 252, 252, 0);
+    color: rgb(255, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 10px;
+  }
+.pic{
+    background-color:rgba(18, 25, 80, 0.507) ;
+    width: 144px;
+    height: 212px;
+}
+.link{
+    width: 300px;
+    height: 215px;
+    background-color: rgba(26, 52, 197, 0.521);
+    border-radius: 20px;
+
+}
+.link .xxx{
+    width: 280px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color:rgba(26, 52, 197, 0.811) ;
+    border: 2px solid ;
+    font-size: 14px;
+    color: white;
+    border-radius: 20px;
+}
+.dsd .xx{
+    width: 100px;
+    height: 20px;
+    border: 2px solid white;
+    margin: 10px;
+    text-align: left;
+    font-size: 10px;
+    background-color:rgba(26, 52, 197, 0.811) ;
+    color: white;
+    border-radius: 20px;
+    padding-left: 5px;
+}
+.dsd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.link .x{
+    width: 100px;
+    height: 20px;
+    background-color:rgba(18, 25, 80, 0.507);
+    color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.backc{
+    width: 100%;
+    height: 250px;
+    background-color:rgba(18, 25, 80, 0.507);
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gal{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 380px;
+    height: 400px;
+
+
+}
+.sads{
+    background-color:rgba(18, 25, 80, 0.507) ;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.gal img{
+    margin-left: 20px;
+}
+.text3{
+    color: white;
+    font-size: 50px;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 400px;
+    background-color:rgba(18, 25, 80, 0.507)  ;
+}
+.end{
+    display: flex;
+    align-items: center;
+}
+.asds{
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+}
+.asds .sas{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.qaw div{
+    margin-left: 40px;
+}
+.imgg{
+    margin:0;
+
+}  
+}
